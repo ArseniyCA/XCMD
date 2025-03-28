@@ -1,0 +1,53 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\XCMD]
+@="XCMD"
+"XCMDStationsDisabled"="8"
+"XboxStationsDisabled"="0"
+"XCMD"=dword:00000003x
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\XCMD\cmdlinedword]
+@="CMD"
+"XCMD8"=dword:00000003
+"XCMD7"=dword:00000008
+"XCMD6"=dword:00000001
+"XCMD5"=dword:00000000
+"XCMD4"=dword:00000006
+"XCMD3"=dword:00000002
+"XCMD2"=dword:00000009
+"XCMD1"=dword:00000003
+"XCMD"=dword:00000003x
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\XCMD\cmd]
+@="CMD1"
+"CentralLicensing"=dword:00000000
+"CertificateExpiresOn"=""
+"CertificateIssuedBy"=""
+"CertificateIssuedTo"=""
+"CustomRDPSettings"="authentication level:i:2"
+"fDisabledAllowList"=dword:00000000
+"fHasCertificate"=dword:00000000
+"LicenseServers"=hex(7):00,00
+"LicensingType"=dword:00000005
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\XCMD\virtualization]
+@="virtualization"
+"CompatibleVmVersion"="4.0"
+"CurrentVmVersion"="9.2"
+"MaximumMacAddress"=hex:00
+"MetricsFlushInterval"=dword:00000e10
+"MinimumImportVmVersion"="1.0"
+"MinimumMacAddress"=hex:00
+"ServicingVersion"="1.0"
+"Version"="10.0.19041.1"
+"EnableFirewall"=dword:00000000
+"ElementName1"="Keyboard Input Virtual Channel"
+"ElementName2"="HID Input Virtual Channel"
+"ElementName3"="Input Settings Virtual Channel"
+"ElementName4"="Software Licensing Service"
+"ElementName5"="VM Session Service"
+"ElementName6"="Mouse Input Virtual Channel"
+"ElementName7"="VM Session Service-2"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\XCMD\Security features]
+@="Security features"
